@@ -1,0 +1,39 @@
+#full{
+    display: flex;    
+    flex-flow: row wrap;
+    align-items: center; 
+     
+}
+#full>*{
+    flex: 1 100%;
+}
+header, footer{
+    background-color:rgb(138, 200, 204);
+    height: 200px;
+    margin: 5px;  
+}
+main{
+    display: flex;    
+    flex-flow: row wrap;
+    height: 600px;
+    margin: 3px; 
+}
+main>*{
+   margin: 1px;
+}
+
+main>article{
+    background-color: rgb(219, 213, 204);
+    flex: 1 50%;
+}
+main>aside{
+    background-color: rgb(224, 148, 224);
+    flex: 1 29%;
+}
+nav{
+    background-color: rgb(134, 151, 201);
+    flex: 1 15%;
+}
+.padding5{
+    padding: 5px;
+}
